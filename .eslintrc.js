@@ -7,8 +7,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'plugin:sort/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
@@ -38,15 +36,6 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
-    'react/jsx-sort-props': [
-      'error',
-      {
-        reservedFirst: true,
-        shorthandFirst: true,
-      },
-    ],
-    'react/prop-types': ['off'],
-    'react/react-in-jsx-scope': ['off'],
     'sort/imports': ['off'],
   },
   settings: {
