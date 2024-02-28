@@ -1,5 +1,0 @@
-type Profile {
-  id: Int!
-  name: String!
-  avatar: MediaFile!
-}

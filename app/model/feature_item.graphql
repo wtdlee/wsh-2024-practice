@@ -1,4 +1,0 @@
-type FeatureItem {
-  id: Int!
-  product: Product!
-}

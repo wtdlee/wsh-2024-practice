@@ -1,5 +1,0 @@
-type ProductMedia {
-  id: Int!
-  file: MediaFile!
-  isThumbnail: Boolean!
-}
