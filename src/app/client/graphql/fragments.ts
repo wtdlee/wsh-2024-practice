@@ -1,17 +1,17 @@
 import { gql } from '@apollo/client';
 
-import type { FeatureItem } from '../../model/feature_item';
-import type { FeatureSection } from '../../model/feature_section';
-import type { LimitedTimeOffer } from '../../model/limited_time_offer';
-import type { MediaFile } from '../../model/media_file';
-import type { Order } from '../../model/order';
-import type { Product } from '../../model/product';
-import type { ProductMedia } from '../../model/product_media';
-import type { Profile } from '../../model/profile';
-import type { Recommendation } from '../../model/recommendation';
-import type { Review } from '../../model/review';
-import type { ShoppingCartItem } from '../../model/shopping_cart_item';
-import type { User } from '../../model/user';
+import type { FeatureItem } from '../../../model/feature_item';
+import type { FeatureSection } from '../../../model/feature_section';
+import type { LimitedTimeOffer } from '../../../model/limited_time_offer';
+import type { MediaFile } from '../../../model/media_file';
+import type { Order } from '../../../model/order';
+import type { Product } from '../../../model/product';
+import type { ProductMedia } from '../../../model/product_media';
+import type { Profile } from '../../../model/profile';
+import type { Recommendation } from '../../../model/recommendation';
+import type { Review } from '../../../model/review';
+import type { ShoppingCartItem } from '../../../model/shopping_cart_item';
+import type { User } from '../../../model/user';
 
 export const MediaFileFragment = gql`
   fragment MediaFileFragment on MediaFile {

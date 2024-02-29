@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Layout } from '../../components/application/Layout';
+import { Layout } from '../../src/app/client/components/application/Layout';
 
 import * as styles from './Fallback.styles';
 
